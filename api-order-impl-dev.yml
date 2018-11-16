@@ -17,7 +17,7 @@ feign:
 hystrix:  
  command: 
    default: 
-      execution: 
+     execution: 
        timeout: 
-        enabled: true
+         enabled: true
 
