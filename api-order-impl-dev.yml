@@ -19,5 +19,5 @@ hystrix:
    default: 
       execution: 
        timeout: 
-        enabled: false
+        enabled: true
 
