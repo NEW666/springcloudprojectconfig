@@ -14,3 +14,17 @@ eureka:
     register-with-eureka: true
     ###是否需要从eureka上获取注册信息
     fetch-registry: true
+###开启Hystrix断路器 
+feign:
+  hystrix:
+    enabled: true
+
+
+#### hystrix禁止服务超时时间
+hystrix:  
+ command: 
+   default: 
+      execution: 
+       timeout: 
+        enabled: false
+
