@@ -20,11 +20,7 @@ zuul:
         ### 以 /api-/访问转发到订单服务
       path: /api-/**
       serviceId: app-order
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+
 ribbon: 
   eureka: 
     enabled: true
