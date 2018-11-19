@@ -11,7 +11,7 @@ server:
 ###网关名称
 spring:
   application:
-    name: service-zuul
+    name: api-zuul
 #### 配置网关反向代理    
 zuul:
   routes:
