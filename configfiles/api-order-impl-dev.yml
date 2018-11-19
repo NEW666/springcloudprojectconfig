@@ -4,6 +4,7 @@ feign:
 server:
   port: 8882
 #### hystrix禁止服务超时时间
+
 hystrix:  
  command: 
    default: 
