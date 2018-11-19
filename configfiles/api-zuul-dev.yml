@@ -5,11 +5,11 @@ zuul:
   routes:
     api-member:
      ### 以 /api-/访问转发到会员服务
-      path: /api-/**
+      path: /api-member/**
       serviceId: api-member-impl
     api-order:
         ### 以 /api-/访问转发到订单服务
-      path: /api-/**
+      path: /api-order/**
       serviceId: api-order-impl
 
 ribbon: 
